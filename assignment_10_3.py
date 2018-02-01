@@ -36,5 +36,5 @@ for line in fhand:
 pool_dict_sorted = sorted([(v,k) for k,v in pool_dict.items()], reverse = True)
 #print(pool_dict_sorted)
 
-for k, v in pool_dict_sorted.items():
+for (k, v) in pool_dict_sorted:
     print(v, k)
