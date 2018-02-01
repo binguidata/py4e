@@ -1,4 +1,4 @@
-# py4e (python for everybody)
+# py4e (Python for everybody)
 
 course link: https://www.py4e.com
 
