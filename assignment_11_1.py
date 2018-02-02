@@ -28,7 +28,7 @@ fhand = open('mbox.txt')
 for line in fhand:
     line.rstrip()
     list = re.findall(regex, line)
-    if len(list) != 1:
+    if len(list) < 1:
         continue
     num_line = num_line + 1
 
